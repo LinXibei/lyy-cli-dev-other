@@ -1,0 +1,189 @@
+0 silly argv {
+0 silly argv   _: [ 'publish' ],
+0 silly argv   composed: 'publish',
+0 silly argv   lernaVersion: '4.0.0',
+0 silly argv   '$0': 'lerna'
+0 silly argv }
+1 notice cli v4.0.0
+2 verbose rootPath /Users/linyuanyuan/Desktop/lyy-cli-dev-other
+3 info versioning independent
+4 verbose session b3fb29f9fee4e748
+5 verbose user-agent lerna/4.0.0/node@v16.13.1+x64 (darwin)
+6 silly argv { _: [ 'publish' ], composed: 'publish', lernaVersion: '4.0.0' }
+7 verbose rootPath /Users/linyuanyuan/Desktop/lyy-cli-dev-other
+8 silly isAnythingCommitted
+9 verbose isAnythingCommitted 1
+10 silly getCurrentBranch
+11 verbose currentBranch master
+12 silly remoteBranchExists
+13 silly isBehindUpstream
+14 silly isBehindUpstream master is behind origin/master by 0 commit(s) and ahead by 0
+15 silly hasTags
+16 verbose hasTags true
+17 silly git-describe.sync "@lyy-cli-dev-other/app@1.0.3-1-g514be76" => {"lastTagName":"@lyy-cli-dev-other/app@1.0.3","lastVersion":"1.0.3","refCount":"1","sha":"514be76","isDirty":false}
+18 info Looking for changed packages since @lyy-cli-dev-other/app@1.0.3
+19 silly checking diff packages/app
+20 silly found diff in packages/app/package.json
+21 verbose filtered diff [ 'packages/app/package.json' ]
+22 silly checking diff packages/core
+23 silly found diff in packages/core/package.json
+24 verbose filtered diff [ 'packages/core/package.json' ]
+25 silly checking diff packages/utils
+26 silly found diff in packages/utils/package.json
+27 verbose filtered diff [ 'packages/utils/package.json' ]
+28 verbose updated @lyy-cli-dev-other/app
+29 verbose updated @lyy-cli-dev-other/core
+30 verbose updated @lyy-cli-dev-other/utils
+31 verbose git-describe undefined => "@lyy-cli-dev-other/app@1.0.3-1-g514be76"
+32 silly git-describe parsed => {"lastTagName":"@lyy-cli-dev-other/app@1.0.3","lastVersion":"1.0.3","refCount":"1","sha":"514be76","isDirty":false}
+33 info execute Skipping releases
+34 silly lifecycle No script for "preversion" in "lyy-cli-dev-other", continuing
+35 warn ECYCLE Dependency cycles detected, you should fix these!
+35 warn ECYCLE @lyy-cli-dev-other/core -> @lyy-cli-dev-other/utils -> @lyy-cli-dev-other/core
+36 silly lifecycle No script for "preversion" in "@lyy-cli-dev-other/core", continuing
+37 silly lifecycle No script for "preversion" in "@lyy-cli-dev-other/utils", continuing
+38 silly lifecycle No script for "version" in "@lyy-cli-dev-other/utils", continuing
+39 silly lifecycle No script for "version" in "@lyy-cli-dev-other/core", continuing
+40 silly lifecycle No script for "preversion" in "@lyy-cli-dev-other/app", continuing
+41 silly lifecycle No script for "version" in "@lyy-cli-dev-other/app", continuing
+42 silly lifecycle No script for "version" in "lyy-cli-dev-other", continuing
+43 silly gitAdd [
+43 silly gitAdd   'packages/utils/package.json',
+43 silly gitAdd   'packages/core/package.json',
+43 silly gitAdd   'packages/app/package.json'
+43 silly gitAdd ]
+44 silly gitCommit Publish
+44 silly gitCommit
+44 silly gitCommit  - @lyy-cli-dev-other/app@1.0.4
+44 silly gitCommit  - @lyy-cli-dev-other/core@1.0.4
+44 silly gitCommit  - @lyy-cli-dev-other/utils@1.0.4
+45 verbose git [
+45 verbose git   'commit',
+45 verbose git   '-F',
+45 verbose git   '/private/var/folders/7c/ps6hjh0573x2n20s3fqdq2j80000gp/T/298667c7-67f5-4bf1-8ac3-9ede19a3e5e7/lerna-commit.txt'
+45 verbose git ]
+46 silly gitTag @lyy-cli-dev-other/app@1.0.4
+47 verbose git [
+47 verbose git   'tag',
+47 verbose git   '@lyy-cli-dev-other/app@1.0.4',
+47 verbose git   '-m',
+47 verbose git   '@lyy-cli-dev-other/app@1.0.4'
+47 verbose git ]
+48 silly gitTag @lyy-cli-dev-other/core@1.0.4
+49 verbose git [
+49 verbose git   'tag',
+49 verbose git   '@lyy-cli-dev-other/core@1.0.4',
+49 verbose git   '-m',
+49 verbose git   '@lyy-cli-dev-other/core@1.0.4'
+49 verbose git ]
+50 silly gitTag @lyy-cli-dev-other/utils@1.0.4
+51 verbose git [
+51 verbose git   'tag',
+51 verbose git   '@lyy-cli-dev-other/utils@1.0.4',
+51 verbose git   '-m',
+51 verbose git   '@lyy-cli-dev-other/utils@1.0.4'
+51 verbose git ]
+52 silly lifecycle No script for "postversion" in "@lyy-cli-dev-other/app", continuing
+53 silly lifecycle No script for "postversion" in "@lyy-cli-dev-other/core", continuing
+54 silly lifecycle No script for "postversion" in "@lyy-cli-dev-other/utils", continuing
+55 silly lifecycle No script for "postversion" in "lyy-cli-dev-other", continuing
+56 info git Pushing tags...
+57 silly gitPush origin master
+58 info publish Publishing packages to npm...
+59 notice Skipping all user and access validation due to third-party registry
+60 notice Make sure you're authenticated properly ¯\_(ツ)_/¯
+61 silly getCurrentSHA
+62 verbose getCurrentSHA 45c85d78f0a6544c3120f9b59df90522a859683b
+63 silly lifecycle No script for "prepublish" in "lyy-cli-dev-other", continuing
+64 silly lifecycle No script for "prepare" in "lyy-cli-dev-other", continuing
+65 silly lifecycle No script for "prepublishOnly" in "lyy-cli-dev-other", continuing
+66 silly lifecycle No script for "prepack" in "lyy-cli-dev-other", continuing
+67 verbose pack-directory packages/core
+68 silly lifecycle No script for "prepublish" in "@lyy-cli-dev-other/core", continuing
+69 silly lifecycle No script for "prepare" in "@lyy-cli-dev-other/core", continuing
+70 silly lifecycle No script for "prepublishOnly" in "@lyy-cli-dev-other/core", continuing
+71 silly lifecycle No script for "prepack" in "@lyy-cli-dev-other/core", continuing
+72 silly lifecycle No script for "postpack" in "@lyy-cli-dev-other/core", continuing
+73 verbose packed packages/core
+74 verbose pack-directory packages/app
+75 silly lifecycle No script for "prepublish" in "@lyy-cli-dev-other/app", continuing
+76 silly lifecycle No script for "prepare" in "@lyy-cli-dev-other/app", continuing
+77 silly lifecycle No script for "prepublishOnly" in "@lyy-cli-dev-other/app", continuing
+78 silly lifecycle No script for "prepack" in "@lyy-cli-dev-other/app", continuing
+79 silly lifecycle No script for "postpack" in "@lyy-cli-dev-other/app", continuing
+80 verbose packed packages/app
+81 silly lifecycle No script for "postpack" in "lyy-cli-dev-other", continuing
+82 verbose publish @lyy-cli-dev-other/core
+83 silly FetchError: request to https://registry.npm.org/@lyy-cli-dev-other%2fcore failed, reason: Hostname/IP does not match certificate's altnames: Host: registry.npm.org. is not in the cert's altnames: DNS:*.cloudwaysapps.com, DNS:cloudwaysapps.com
+83 silly     at ClientRequest.<anonymous> (/usr/local/lib/node_modules/lerna/node_modules/minipass-fetch/lib/index.js:110:14)
+83 silly     at ClientRequest.emit (node:events:390:28)
+83 silly     at TLSSocket.socketErrorListener (node:_http_client:447:9)
+83 silly     at TLSSocket.emit (node:events:402:35)
+83 silly     at emitErrorNT (node:internal/streams/destroy:157:8)
+83 silly     at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+83 silly     at processTicksAndRejections (node:internal/process/task_queues:83:21)
+83 silly  FetchError: request to https://registry.npm.org/@lyy-cli-dev-other%2fcore failed, reason: Hostname/IP does not match certificate's altnames: Host: registry.npm.org. is not in the cert's altnames: DNS:*.cloudwaysapps.com, DNS:cloudwaysapps.com
+83 silly     at ClientRequest.<anonymous> (/usr/local/lib/node_modules/lerna/node_modules/minipass-fetch/lib/index.js:110:14)
+83 silly     at ClientRequest.emit (node:events:390:28)
+83 silly     at TLSSocket.socketErrorListener (node:_http_client:447:9)
+83 silly     at TLSSocket.emit (node:events:402:35)
+83 silly     at emitErrorNT (node:internal/streams/destroy:157:8)
+83 silly     at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+83 silly     at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+83 silly   code: 'ERR_TLS_CERT_ALTNAME_INVALID',
+83 silly   reason: "Host: registry.npm.org. is not in the cert's altnames: DNS:*.cloudwaysapps.com, DNS:cloudwaysapps.com",
+83 silly   host: 'registry.npm.org',
+83 silly   cert: {
+83 silly     subject: [Object: null prototype] { CN: '*.cloudwaysapps.com' },
+83 silly     issuer: [Object: null prototype] {
+83 silly       C: 'GB',
+83 silly       ST: 'Greater Manchester',
+83 silly       L: 'Salford',
+83 silly       O: 'Sectigo Limited',
+83 silly       CN: 'Sectigo RSA Domain Validation Secure Server CA'
+83 silly     },
+83 silly     subjectaltname: 'DNS:*.cloudwaysapps.com, DNS:cloudwaysapps.com',
+83 silly     infoAccess: [Object: null prototype] {
+83 silly       'CA Issuers - URI': [Array],
+83 silly       'OCSP - URI': [Array]
+83 silly     },
+83 silly     modulus: 'D227258C7F332770594394A9E43164416D556DFD9A56F74843591AF665FBEA895086280BF4BC6EC7C5DE25C223539803E50DF849DF39A77B4D50A70E6F8C06971045747CBA8A6F38B971F115E71289B1FE5D7ED41EE8D08D8EF2ED90BF8FE71F713DC68BDF2A4319FB18B206F9B8259F3B2A1E445EE5AAACF129F8687366304041B367F9E409608079B7AD1467855EC993D16B3D27F62AD17F35CCF0A0640D5E26A40B355113806DB92407E160CEB747B04FC2802B694B3D53A7E4822B8FDA74EBE7926A5D5D4389FFB4F10DE26A6DA9B9A7302EA6981B12E464BB6538EAB1070E3A917D852B7DFDB710AA9A365576030539BC9A89ABFFF47CF067BB9E6CA541',
+83 silly     bits: 2048,
+83 silly     exponent: '0x10001',
+83 silly     pubkey: <Buffer 30 82 01 22 30 0d 06 09 2a 86 48 86 f7 0d 01 01 01 05 00 03 82 01 0f 00 30 82 01 0a 02 82 01 01 00 d2 27 25 8c 7f 33 27 70 59 43 94 a9 e4 31 64 41 6d ... 244 more bytes>,
+83 silly     valid_from: 'Aug 16 00:00:00 2021 GMT',
+83 silly     valid_to: 'Sep 16 23:59:59 2022 GMT',
+83 silly     fingerprint: 'E3:2B:71:34:10:14:F6:CD:7B:8D:AA:4E:E1:7F:C3:57:6E:9B:C0:D4',
+83 silly     fingerprint256: 'F5:2D:4C:4B:4E:15:E5:7E:34:5A:EF:ED:48:8F:02:F1:B5:56:94:D2:B3:60:6E:49:14:57:23:E2:22:D4:CB:80',
+83 silly     ext_key_usage: [ '1.3.6.1.5.5.7.3.1', '1.3.6.1.5.5.7.3.2' ],
+83 silly     serialNumber: 'EA165789173393FA19D824AA4471FB10',
+83 silly     raw: <Buffer 30 82 06 41 30 82 05 29 a0 03 02 01 02 02 11 00 ea 16 57 89 17 33 93 fa 19 d8 24 aa 44 71 fb 10 30 0d 06 09 2a 86 48 86 f7 0d 01 01 0b 05 00 30 81 8f ... 1555 more bytes>,
+83 silly     issuerCertificate: {
+83 silly       subject: [Object: null prototype],
+83 silly       issuer: [Object: null prototype],
+83 silly       infoAccess: [Object: null prototype],
+83 silly       modulus: 'D67333D6D73C20D000D21745B8D63E07A23FC741EE3230C9B06CFDF49FCB12980F2D3F8D4D010C820F177F622EE9B84879FB16834EADD7322593B707BFB9503FA94CC3402AE939FFD981CA1F163241DA8026B9237A87201EE3FF209A3C95446F8775069040B4329316091008233ED2DD870F6F5D51146A0A69C54F017269CFD3934C6D04A0A31B827EB19AB9EDC59EC537789F9A0834FB562E58C4090E06645BBC37DCF19F2868A856B092A35C9FBB8898081B241DAB3085AEAFB02E9E7A9DC1C0421CE202F0EAE04AD2EF900EB4C14016F06F85424A64F7A430A0FEBF2EA3275A8E8B58B8ADC319178463ED6F56FD83CB6034C474BEE69DDBE1E4E5CA0C5F15',
+83 silly       bits: 2048,
+83 silly       exponent: '0x10001',
+83 silly       pubkey: <Buffer 30 82 01 22 30 0d 06 09 2a 86 48 86 f7 0d 01 01 01 05 00 03 82 01 0f 00 30 82 01 0a 02 82 01 01 00 d6 73 33 d6 d7 3c 20 d0 00 d2 17 45 b8 d6 3e 07 a2 ... 244 more bytes>,
+83 silly       valid_from: 'Nov  2 00:00:00 2018 GMT',
+83 silly       valid_to: 'Dec 31 23:59:59 2030 GMT',
+83 silly       fingerprint: '33:E4:E8:08:07:20:4C:2B:61:82:A3:A1:4B:59:1A:CD:25:B5:F0:DB',
+83 silly       fingerprint256: '7F:A4:FF:68:EC:04:A9:9D:75:28:D5:08:5F:94:90:7F:4D:1D:D1:C5:38:1B:AC:DC:83:2E:D5:C9:60:21:46:76',
+83 silly       ext_key_usage: [Array],
+83 silly       serialNumber: '7D5B5126B476BA11DB74160BBC530DA7',
+83 silly       raw: <Buffer 30 82 06 13 30 82 03 fb a0 03 02 01 02 02 10 7d 5b 51 26 b4 76 ba 11 db 74 16 0b bc 53 0d a7 30 0d 06 09 2a 86 48 86 f7 0d 01 01 0c 05 00 30 81 88 31 ... 1509 more bytes>,
+83 silly       issuerCertificate: [Object]
+83 silly     }
+83 silly   },
+83 silly   errno: 'ERR_TLS_CERT_ALTNAME_INVALID',
+83 silly   type: 'system'
+83 silly }
+84 error ERR_TLS_CERT_ALTNAME_INVALID request to https://registry.npm.org/@lyy-cli-dev-other%2fcore failed, reason: Hostname/IP does not match certificate's altnames: Host: registry.npm.org. is not in the cert's altnames: DNS:*.cloudwaysapps.com, DNS:cloudwaysapps.com
+85 error FetchError: request to https://registry.npm.org/@lyy-cli-dev-other%2fcore failed, reason: Hostname/IP does not match certificate's altnames: Host: registry.npm.org. is not in the cert's altnames: DNS:*.cloudwaysapps.com, DNS:cloudwaysapps.com
+85 error     at ClientRequest.<anonymous> (/usr/local/lib/node_modules/lerna/node_modules/minipass-fetch/lib/index.js:110:14)
+85 error     at ClientRequest.emit (node:events:390:28)
+85 error     at TLSSocket.socketErrorListener (node:_http_client:447:9)
+85 error     at TLSSocket.emit (node:events:402:35)
+85 error     at emitErrorNT (node:internal/streams/destroy:157:8)
+85 error     at emitErrorCloseNT (node:internal/streams/destroy:122:3)
