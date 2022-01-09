@@ -1,6 +1,6 @@
 {
   "name": "@lyy-cli-dev-other/app",
-  "version": "1.0.5",
+  "version": "1.0.0",
   "description": "> TODO: description",
   "author": "linxibei <herryleehom@126.com>",
   "homepage": "",
@@ -14,7 +14,8 @@
     "lib"
   ],
   "publishConfig": {
-    "registry": "https://registry.npmjs.org"
+    "registry": "https://registry.npmjs.org",
+    "access": "public"
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
@@ -23,5 +24,5 @@
     "@lyy-cli-dev-other/core": "^1.0.5",
     "@lyy-cli-dev-other/utils": "^1.0.5"
   },
-  "gitHead": "45c85d78f0a6544c3120f9b59df90522a859683b"
+  "gitHead": "6fb80848396bdfa509044276facfddc5d37cf21f"
 }

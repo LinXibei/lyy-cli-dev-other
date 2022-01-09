@@ -1,6 +1,6 @@
 {
   "name": "@lyy-cli-dev-other/utils",
-  "version": "1.0.5",
+  "version": "1.0.0",
   "description": "> TODO: description",
   "author": "linxibei <herryleehom@126.com>",
   "homepage": "",
@@ -19,8 +19,10 @@
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
-  "private": true,
   "dependencies": {
     "@lyy-cli-dev-other/core": "^1.0.5"
+  },
+  "packageConfig": {
+    "access": "public"
   }
 }
