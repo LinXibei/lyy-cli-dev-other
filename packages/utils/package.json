@@ -14,7 +14,8 @@
     "lib"
   ],
   "publishConfig": {
-    "registry": "https://registry.npmjs.org"
+    "registry": "https://registry.npmjs.org",
+    "access": "public"
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
@@ -22,8 +23,5 @@
   "dependencies": {
     "@lyy-cli-dev-other/core": "^1.0.8"
   },
-  "packageConfig": {
-    "access": "public"
-  },
-  "gitHead": "69cf4a11c1c29ec65c8ea9e2e515e98a852a137e"
+  "gitHead": "fd7103bd07e67b77b355f294c998edc009260d0e"
 }
