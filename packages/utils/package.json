@@ -1,6 +1,6 @@
 {
   "name": "@lyy-cli-dev-other/utils",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "> TODO: description",
   "author": "linxibei <herryleehom@126.com>",
   "homepage": "",
@@ -21,6 +21,6 @@
   },
   "private": true,
   "dependencies": {
-    "@lyy-cli-dev-other/core": "^1.0.3"
+    "@lyy-cli-dev-other/core": "^1.0.4"
   }
 }
