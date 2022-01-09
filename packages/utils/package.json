@@ -24,5 +24,6 @@
   },
   "packageConfig": {
     "access": "public"
-  }
+  },
+  "gitHead": "69cf4a11c1c29ec65c8ea9e2e515e98a852a137e"
 }
