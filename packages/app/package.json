@@ -22,5 +22,6 @@
   "dependencies": {
     "@lyy-cli-dev-other/core": "^1.0.1",
     "@lyy-cli-dev-other/utils": "^1.0.1"
-  }
+  },
+  "gitHead": "5fbae975ff4cb871b932ceb8b689732a7dcf6b8e"
 }
