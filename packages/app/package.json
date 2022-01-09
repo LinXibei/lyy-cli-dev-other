@@ -1,6 +1,6 @@
 {
   "name": "@lyy-cli-dev-other/app",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "> TODO: description",
   "author": "linxibei <herryleehom@126.com>",
   "homepage": "",
@@ -20,8 +20,8 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@lyy-cli-dev-other/core": "^1.0.1",
-    "@lyy-cli-dev-other/utils": "^1.0.1"
+    "@lyy-cli-dev-other/core": "^1.0.2",
+    "@lyy-cli-dev-other/utils": "^1.0.2"
   },
   "gitHead": "5fbae975ff4cb871b932ceb8b689732a7dcf6b8e"
 }
